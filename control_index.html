@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Controller</title>
+  </head>
+  <body style="background-color:rgba(255, 255, 255, 0.5);">
+    <form id="target">
+      <input id="user-input" type="text" value="Hello there">
+      <input type="submit" value="Go">
+    </form>
+  </body>
+
+  <script>
+    // You can also require other files to run in this process
+    window.$ = window.jQuery = require('./jquery-1.12.4.min.js');
+    require('./control_renderer.js');
+  </script>
+</html>
